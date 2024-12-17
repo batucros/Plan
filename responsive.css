@@ -1,0 +1,17 @@
+/* responsive.css - Media queries and responsive styles */
+@media (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .secondary-stories {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        border-left: none;
+        padding-left: 0;
+        border-top: 1px solid #e2e2e2;
+        padding-top: 20px;
+    }
+}
